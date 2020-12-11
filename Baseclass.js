@@ -15,7 +15,7 @@ class BaseClass{
         push();
         translate(this.body.position.x, this.body.position.y);
         rotate(angle);
-        rect(this.image, 0, 0, this.width, this.height);
+        rect(this.body, 0, 0, this.width, this.height);
         pop();
       }
 }
